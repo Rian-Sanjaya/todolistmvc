@@ -1,0 +1,13 @@
+DATAT TYPES
+
+Objects:
+- Objects
+- arrays
+-functions
+
+Primitives:
+- string        // "This is a string"
+- number        // 1, 2, 3.1, ...
+- boolean       // true, false
+- undefined     // value that hasn't been set
+- null          // 'Nothing'

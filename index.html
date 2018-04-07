@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Todo List</h1>
+    <div>
+        <!-- <button id="displayTodosButton">Display Todos</button>
+        <button id="toggleAllButton">Toggle All</button> -->
+        <button onclick="handlers.toggleAll()">Toggle All</button>
+    </div>
+    <div>
+        <button onclick="handlers.addTodo()">Add</button>
+        <input type="text" id="addTodoTextInput">
+    </div>
+    <div>
+        <button onclick="handlers.changeTodo()">Change</button>
+        <input type="number" id="changeTodoPositionInput">
+        <input type="text" id="changeTodoTextInput">
+    </div>
+    <div>
+        <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
+        <input type="number" id="toggleCompletedPositionInput">
+    </div>
+    <ul></ul>
+    <script src="todos.js"></script>
+</body>
+</html>
